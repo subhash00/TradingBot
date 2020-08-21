@@ -1,0 +1,33 @@
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table{
+	width:100%;
+}
+.profitBanner {
+	padding:20px;
+	background: #f8eeee;
+	text-align: center;
+}
+.profitFont {
+	height: 50px;
+	color: #000000;
+	padding: 20px;
+}
+.negativeValue {
+	color: red;
+	height: 200px;
+	padding: 20px;
+}
+.positiveValue {
+	color: green;
+	height: 200px;
+	padding: 20px;
+}
+.zeroValue {
+	color: darkblue;
+	height: 200px;
+	padding: 20px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TradingBot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        //function appendStock () {
+
+            //const table = document.querySelector(".table");
+            var app = document.createElement('tr');
+            // app.className=()
+            var appendth = document.createElement('td');// Create a <li> node
+            var textnode = document.createTextNode("apple");         // Create a text node
+            appendth.appendChild(textnode);                              // Append the text to <li>
+            // document.querySelector(".tableRow").appendChild(appendth);
+            var appendth1 = document.createElement('td');// Create a <li> node
+            var textnode1 = document.createTextNode("mango");         // Create a text node
+            appendth1.appendChild(textnode1);                              // Append the text to <li>
+            //  document.querySelector(".tableRow").appendChild(appendth1);
+            var appendth2 = document.createElement('td');// Create a <li> node
+            var textnode2 = document.createTextNode("banana");         // Create a text node
+            appendth2.appendChild(textnode2);
+            //  document.querySelector(".tableRow").appendChild(appendth2);
+            var oo = table.appendChild(app);// Append the text to <li>
+            oo.appendChild(appendth);
+            oo.appendChild(appendth1);
+            oo.appendChild(appendth2);
+        //};
+        
+    </script>
+</head>
+<body>
+    <h1>WELCOME TO MY TRADING PLATFORM..HOOHAHAHA...hAOOHHOOOOO...</h1>
+    <table class="table1">
+        <thead>
+            <tr class="header">
+                <th>Quote</th>
+                <th>BuyPrice</th>
+                <th>Profit/Loss</th>
+            </tr>
+        </thead>
+        <tbody class="tableBody"></tbody>
+    </table>
+    <input type="button" value="click_for_freedom" onclick="appendStock()" />
+    <div class="profitBanner">
+        <span class="profitFont">Profit/Loss :</span>
+        <h2 class="profitValue"></h2>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
